@@ -5,6 +5,6 @@ def fibonacci(num):
     else:
         return fibonacci(num-1)+fibonacci(num-2)
 n=int(input("Enter the number of terms:"))
-print("fibonacci series:")
+print("Fibonacci series:")
 for i in range(n):
     print(fibonacci(i),end=" ")
